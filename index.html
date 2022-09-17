@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista de Alumnos</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+            <center>
+                <h3 style="margin-top: 20px; margin-bottom: 20px;">Lista De Alumnos En La Clase</h3>
+                <div>
+                    <span>1</span>
+                    <input type="text" placeholder="Alumno1" id="NombreDeAlumno1">
+                    <br>
+
+                    <span>2</span>
+                    <input type="text" placeholder="Alumno2" id="NombreDeAlumno2">
+                    <br> 
+
+                    <span>3</span>
+                    <input type="text" placeholder="Alumno3" id="NombreDeAlumno3">
+                    <br>
+
+                    <span>4</span>
+                    <input type="text" placeholder="Alumno4" id="NombreDeAlumno4">
+                    <br>
+                </div>
+                <button onclick="submit()" id="botonenviar">Enviar</button>
+
+                <div id="verNombre" style="font-weight:bold;"></div>
+
+                <button onclick="sorting()" id="botonordenar">Ordenar</button>
+            </center>
+    </body>
+</html>

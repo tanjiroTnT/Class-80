@@ -1,0 +1,15 @@
+#botonenviar
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#botonordenar
+{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input
+{
+    margin: 10px;
+}
